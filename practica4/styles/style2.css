@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Poppins:wght@300;400;500&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.section-principal{
+    width: 900px;
+    height: 800px;
+    border: 5px solid #0c6170;
+    background-color: #a4e5e0;
+    margin: 30px auto;
+    padding: 0.01px;
+}
+
+.title-principal{
+    width: 700px;
+    height: 50px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 2.5rem;
+    color: #37beb0;
+
+}
+
+.formulario{
+    width: 700px;
+    height: 700px;
+    margin: 20px 100px 20px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.form-group{
+    border-radius: 10px;
+   padding: 10px;
+   width: 500px;
+   height: 40px;
+   background-color: #dbf5f0;
+   margin-left: 100px;
+   display: flex;
+   align-items: center;
+}
+
+.form-group input , select{
+    width: 50%;
+}
+.form-group label{
+    width: 50%;
+}

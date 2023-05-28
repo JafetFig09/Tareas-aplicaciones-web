@@ -1,0 +1,45 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.section-principal{
+    width: 900px;
+    height: 800px;
+    background-color: #f2f2ff;
+    margin: 30px auto;
+    padding: 0.01px;
+    text-align: right;
+   
+}
+
+.formulario{
+    background-color:#f1eeee;
+    width: 850px;
+    height: 750px;
+    margin: 25px;
+    padding: 0.1px;
+    text-align: right;
+
+}
+
+.form-group {
+    width: 700px;
+    height: 50px;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+  
+    
+}
+
+.form-group label{
+    width: 40%;
+    margin-right: 40px;
+}
+
+.form-group input , select{
+    width: 60%;
+    height: 100%;
+}
