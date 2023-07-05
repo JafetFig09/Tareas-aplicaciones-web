@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100;300;600;700;900&family=Poppins:wght@200;300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-color:#D4F1F4;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+   
+    text-align: center;
+    background-color:#75E6DA;
+    padding: 10px;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    gap:50px;
+}
+#post{
+    width: 400px;
+   
+}
+
+.contenedor-comentario{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    
+}
+.options{
+    display: flex;
+    gap: 25px;
+    
+}
+.container{
+    margin-top: 20px;
+}
+#form label{
+    font-size: 1.5em;
+   
+}
+
+.btn{
+    border-radius: 5px;
+    background-color: crimson;
+    text-align: center;
+    color:white;
+    padding: 5px;
+    width: 100px;
+    height: 30px;
+    box-shadow:  5px -2px 5px 0px rgba(0,0,0,0.39)
+}
+i{
+    cursor: pointer;
+}
+
+#msg{
+    color: red;
+}
+
+#textarea {
+    height: 300px;
+    width: 100%;
+    resize: none;
+}
+
+
+.comentario{
+    border-bottom: 1px solid black;
+    margin-top: 10px;
+    word-wrap:break-word;
+    max-height: 150px;
+    max-width: 100%;
+
+
+}
+
+.btn:hover{
+    background-color: beige;
+    color:black;
+    width: 110px;
+    padding: 8px;
+    height: 35px;
+}
+
+
+  

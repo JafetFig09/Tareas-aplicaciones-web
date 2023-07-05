@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header><h1>CRUD Red social</h1></header>
+    <div class="container">
+       <div class="left">
+        <form id="form">
+            <label for="textarea">Escribe un comentario:</label>
+            <br>
+            <textarea id="textarea" cols="30" rows="10"></textarea>
+            <br>
+            <div id="msg"></div>
+            <button class="btn" type="submit">Comentar</button>
+        </form>
+       </div> 
+       <div class="right">
+        <h3>Tus comentarios estan aqui</h3>
+        <div id="post">
+            <div class="contenedor-comentario">
+                <p class="comentario">Comentario 1</p>
+                <span class="options">
+                    <i onclick="editpost(this)" class="fas fa-edit"></i>
+                    <i onclick="deletepost(this)" class="fas fa-trash-alt"></i>
+                </span>
+            </div>
+        </div>
+       </div>
+    </div>
+</body>
+<script src="assets/script.js"></script>
+</html>
