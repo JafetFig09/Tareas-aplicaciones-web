@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100;300;600;700;900&family=Poppins:wght@200;300;400;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100;300;600;700;900&family=Russo+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+}
+
+.header{
+    height: 45px;
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+}
+main{
+    padding-top: 80px;
+    
+}
+
+#titulo-principal{
+    text-align: center;
+
+   
+}
+
+.titulo{
+
+    -webkit-text-fill-color: #FFCC01;
+    -webkit-text-stroke: 2px #3264B0;
+   
+    font-family: 'Russo One', sans-serif;
+    
+}
+
+.info:hover{
+    color:crimson;
+    cursor: default;
+  
+
+}
+
+.carta{
+    /* box-shadow: 5px 6px 11px 0px rgba(20,18,20,0.75); */
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+     rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+     rgba(0, 0, 0, 0.09) 0px 4px 2px, 
+     rgba(0, 0, 0, 0.09) 0px 8px 4px,
+     rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+
+}
+
+
+.cuerpo-carta{
+    background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+}
+
+
+.boton {
+
+    background-color: purple;
+    color: white;
+    border:  1px solid purple;
+
+}
+
+.boton:hover{
+    background-color: white;
+    color: purple;
+    border:  3px solid purple;
+}
