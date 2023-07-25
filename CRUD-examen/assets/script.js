@@ -47,7 +47,7 @@ const createPost = () => {
 
   post.innerHTML += `
     <div class="container__post">
-      <p>Nombre:${games.text}</p>
+      <p>${games.text}</p>
       <p>Fecha de lanzamiento: ${dates_games.text}</p>
       <p>Descripcion:${descripciones.text}</p>
       <span>
