@@ -7,6 +7,7 @@ const abrirModal = document.querySelector("#modal-open");
 
 
 
+
 form_modal.addEventListener("submit", (e) => {
   e.preventDefault();
   formValidar();
@@ -16,12 +17,14 @@ form_modal.addEventListener("submit", (e) => {
 //Valida si los campos del form esta vacio, si lo estan muestra un al
 
 const formValidar = () => {
-  if (descripcion.value === "" || game.value=== "" || dates.value === "") {
+  if (descripcion.value === "" && game.value=== "" && dates.value === "") {
     Swal.fire(
       'NO PUEDES DEJAR VACIO LOS CAMPOS',
       'Presiona el boton OK',
       'warning'
     )
+
+      
   } else {
     acceptData();
   }
@@ -60,7 +63,7 @@ const createPost = () => {
 
 // Editar comentarios
 const editpost = (e) => {
-  
+  game.value=e.parentElement.previousElementSibling.previousElementSibling.previousElementSibling.innerHTML;
   descripcion.value = e.parentElement.previousElementSibling.innerHTML;
   e.parentElement.parentElement.remove();
   modal_open();
@@ -83,8 +86,9 @@ const modal_open=()=>{
 
 const modal_close=()=>{
 
+   
+  modal.close();
   
-  modal.close(); 
 };
 
 
