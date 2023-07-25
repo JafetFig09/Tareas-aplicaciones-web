@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista Videojuegos</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="Bg">
+    <h1>Listado de Videojuegos</h1>
+
+  
+    <dialog id="modal" class="window__modal">
+
+      <div class="form_container">
+        <!-- Forms --> 
+        <form id="form_modal">
+          <p>Nombre del videojuego</p>
+          <input type="text" id="game" />
+
+          <p>Fecha de lanzamiento</p>
+          <input type="date" name="" id="dates" />
+
+          <p>Descripción:</p>
+          <textarea id="descripcion" cols="30" rows="10"></textarea>
+          <div id="msg"></div>
+          <div class="buttons">
+            <button class="modal__btn"  type="submit">Agregar</button>
+            <button class="modal__btn red" id="modal-close" onclick="modal_close(this)">Cerrar</button>
+          </div>
+        </form>
+      </div>
+    </dialog>
+
+
+    <div class="container">
+      <div class="open">
+        <p>Agrega Nuevo Videojuego</p>
+        <button id="modal-open" class="button_more" onclick="modal_open(this)">
+            <i class="bx bx bxs-plus-square bx-tada" style="color:#2bf510" ></i>
+        </button>
+      </div>
+
+      <div class="comentarios">
+        <h3>VideoJuegos</h3>
+
+        <form id="post">
+          <button class="btn" type="submit" onclick="deleteAll()">
+            Eliminar Todos los Videojuegos
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+  <script src="assets/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</html>

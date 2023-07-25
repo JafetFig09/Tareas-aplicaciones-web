@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,300;1,500&display=swap');
+*{
+ 
+    font-family: 'Roboto', sans-serif;
+}
+body, .comentarios{
+    display: grid;
+    place-items: center;
+}
+
+h1,h3{
+    color:white;
+
+}
+
+.open{
+    
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    border: 4px solid black;
+    padding: 5px;
+    background-color: #A0E7E5;
+}
+
+.button_more{
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    position: relative;
+    margin-left: 70%;
+}
+
+
+textarea{
+    resize: none;
+}
+
+.buttons{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    margin: 8px;
+    gap: 8px;
+}
+
+#modal{
+    position: absolute;
+   
+}
+
+body{
+     background-image: linear-gradient(to right, #4facfeac 0%, #00f1fe93 100%),
+     url(https://ceinaseg.com/wp-content/uploads/2021/09/videogames-controller-1920x1080-1.jpg);
+}
+
+.container__post{
+    background-color: aliceblue;
+    border: 3px solid black;
+    margin: 3px;
+}
+
+.btn{
+    border-radius: 8px;
+    background-color: crimson;
+    width: 300px;
+    height: 35px;
+    padding: 8px;
+    color: beige;
+    border: 3px solid black;
+}
+
+.btn:hover{
+    background-color: beige;
+    color: crimson;
+}
+
+
+.window__modal{
+    background-color: cornsilk;
+}
+
+.window__modal p {
+    color:slateblue;
+}
+
+.modal__btn{
+    background-color: chartreuse;
+    color:#fff;
+    border-radius: 8px;
+
+}
+
+.modal__btn:hover{
+    color: chartreuse;
+    background-color: white;
+}
+
+.red{
+    background-color: crimson;
+}
+
+.red:hover{
+    color: crimson;
+    background-color: white;
+}
